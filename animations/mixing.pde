@@ -73,9 +73,11 @@ void setup()
 void draw()
  {
 
-  var skeletons = getSkeletons();
+   if(typeof skeletons != 'undefined')
+   {
+    fill(skeletons[1].head[0], 25, 10,250);
+   } 
 
-   fill(skeletons[1].head[0], 25, 10,250);
   // background(#C95F45);
   rect(0, 0, width, height);
   for (int i = 0; i < blobs.length; i++)
