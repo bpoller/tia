@@ -1,0 +1,13 @@
+{
+  "name": "TIA",
+  "description": "This is Alaska server",
+  "author": "Bert Poller <bpoller@ekito.fr>",
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "engine": "node >= 0.10.10",
+  "repository" :
+  { "type" : "git"
+  , "url" : "git://github.com/bpoller/tia.git"
+  }
+}
